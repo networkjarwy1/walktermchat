@@ -13,7 +13,7 @@ impl Chats {
             .resizable(false)
             .default_width(200.0)
             .show_inside(ui, |ui| {
-                ui.heading("Chats");
+                ui.heading("💬 Chat");
 
                 for (i, chat_id) in self.chats.iter().enumerate() {
                     let selected = self.selected_chat == Some(i);
