@@ -1,9 +1,8 @@
 [package]
-name = "rustchat"
+name = "walktermchat"
 version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-pnet = "0.35.0"
-walktermnet = { path = "../walktermnet" }
-tokio = { version = "1", features = ["full"] }
+eframe = "0.31.1"
+egui = "0.31.1"
